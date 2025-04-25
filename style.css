@@ -18,6 +18,7 @@ header {
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
+  margin-bottom: 160px;
 }
 
 header section {
@@ -57,7 +58,7 @@ header p {
   line-height: 27px;
   color: #00252E;
   margin-block: 32px;
-
+  font-weight: 400;
 
 }
 
@@ -81,7 +82,7 @@ p {
 
 
 .blockdistancetop {
-  margin-top: 160px;
+  /* margin-top: 160px; */
   margin-bottom: 40px;
 }
 
@@ -91,7 +92,7 @@ h1 {
   line-height: 60px;
   color: #00252E;
   height: 120px;
-  /* margin-top: 93px; */
+
 
 }
 
@@ -101,7 +102,6 @@ h1 {
 
 
 main h2 {
-  margin-top: 16px;
   margin-bottom: 16px;
   margin-left: 0px;
   margin-right: 16px;
@@ -209,8 +209,19 @@ footer {
   min-width: 200px;
 }
 
-main section {
 
+.button1:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.0954201);
+  border-radius: 24px;
+  color: #808E9A;
+
+
+
+}
+
+
+main section {
   width: 1270px;
   height: 440px;
   background: #FFFFFF;
@@ -249,7 +260,7 @@ footer h2 {
 }
 
 .logo_footer {
-  margin-bottom: 64px;
+  margin-bottom: 32px;
 }
 
 .border {
@@ -293,6 +304,11 @@ footer h2 {
   padding-inline: 69px 70px;
   min-width: 280px;
   height: 56px;
+}
+
+.button2:hover {
+  background: #FF9ADB;
+  box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.166185);
 
 }
 
@@ -310,7 +326,7 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  
+
 }
 
 ul li a {
@@ -336,22 +352,26 @@ ul li a {
   gap: 16px;
 }
 
-.icon-location{
+.icon-location {
   display: flex;
   align-items: flex-start;
   gap: 17px;
 }
 
-.icon-phone{
+.icon-phone {
   display: flex;
   align-items: center;
   gap: 17px;
 }
 
-.icon-email{
+.icon-email {
   display: flex;
   align-items: center;
   gap: 17px;
+}
+
+.footer_centre ul li a:hover {
+  text-decoration-line: underline;
 }
 
 
@@ -412,11 +432,17 @@ ul li a {
   padding-block: 25px 25px;
   padding-inline: 99px 100px;
   box-shadow: 0px 6px 13px rgba(0, 37, 46, 0.223053);
+}
 
+.button3:hover {
+  background: #FF9ADB;
+  box-shadow: 0px 6px 13px rgba(0, 37, 46, 0.223053);
+  border-radius: 40px;
 
 }
 
-.fb{
+
+.fb {
   background-image: url(./images/fb.png);
   width: 32px;
   height: 32px;
@@ -424,12 +450,12 @@ ul li a {
   background-repeat: no-repeat;
 }
 
-.fb:hover{
+.fb:hover {
   background-image: url(./images/facebook-h.png);
 }
 
 
-.twiter{
+.twiter {
   background-image: url(./images/twit.png);
   width: 32px;
   height: 32px;
@@ -437,12 +463,12 @@ ul li a {
   background-repeat: no-repeat;
 }
 
-.twiter:hover{
-background-image: url(./images/twit-h.png);
+.twiter:hover {
+  background-image: url(./images/twit-h.png);
 }
 
 
-.instagram{
+.instagram {
   background-image: url(./images/inst.png);
   width: 32px;
   height: 32px;
@@ -450,11 +476,6 @@ background-image: url(./images/twit-h.png);
   background-repeat: no-repeat;
 }
 
-.instagram:hover{
+.instagram:hover {
   background-image: url(./images/int-h.png);
 }
-
-
-
-
-
